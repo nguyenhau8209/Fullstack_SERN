@@ -3,6 +3,7 @@ const app = express();
 const port = 3001;
 
 const db = require("./models");
+const cors = require("cors");
 
 //Routers
 const postRouter = require("./routes/Posts");
